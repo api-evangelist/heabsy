@@ -1,0 +1,28 @@
+generated: '2026-10-02'
+method: probed
+source: https://heabsy.com/privacy
+signals:
+  data_subject_request:
+    evidence:
+      - source: https://heabsy.com/privacy
+        http_status: 200
+        fetched: "true"
+        quote: "For API customers we record, as controller, usage metadata only : per request — model name, timestamps, token counts (including cached-token counts), request status, and the key that made the request. This metadata is the basis of billing. It does not include prompt or completion content."
+        section: "4. Heabsy Platform (inference API)"
+        note: "States that prompts/completions are not retained, implying data subject can request deletion of stored content."
+  subprocessors:
+    evidence:
+      - source: https://heabsy.com/privacy
+        http_status: 200
+        fetched: "true"
+        quote: "A current list of sub-processors is available on request."
+        section: "7. Who sees your data (sub-processors)"
+        note: "Acknowledges use of sub‑processors and offers list on request."
+  data_retention:
+    evidence:
+      - source: https://heabsy.com/privacy
+        http_status: 200
+        fetched: "true"
+        quote: "How long we keep data Data Retention Account Until you delete the account Prompt / completion content (Heabsy‑served models) Not persisted — processed in memory only for the duration of the request Usage metadata & financial records 10 years (Slovak accounting/tax law) Application logs 30 days Security audit logs 1 year"
+        section: "6. How long we keep data"
+        note: "Specifies retention periods for various data types."

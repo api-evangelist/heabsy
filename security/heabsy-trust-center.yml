@@ -1,0 +1,14 @@
+generated: '2026-10-02'
+method: searched
+probe: true
+source: https://heabsy.com/compliance
+url: https://heabsy.com/compliance
+certifications:
+- SOC 2
+- ISO 27001
+evidence:
+- source: https://heabsy.com/compliance
+  keywords:
+  - soc 2
+  - soc2
+  - iso 27001

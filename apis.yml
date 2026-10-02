@@ -1,30 +1,85 @@
 aid: heabsy
+
 name: Heabsy
-description: 'Heabsy is a company surfaced via the API Evangelist harvest backlog (source: new-submission)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://heabsy.com/og/index.png
+
+description: 'Heabsy provides an OpenAI‑compatible inference API hosted in the European Economic Area, targeting regulated industries such as finance, insurance, and manufacturing. The platform offers sovereign AI models with zero data retention, compliance with EU AI regulations, and detailed security certifications. It includes a developer console for key management, pricing tiers, and extensive documentation for integration.'
+
 url: https://raw.githubusercontent.com/api-evangelist/heabsy/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:new-submission
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-02 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-02'
+
 modified: '2026-10-02'
+
 tags:
-- Company
-apis: []
+- AI
+- Inference
+- OpenAI-compatible
+- EU-regulated
+- SaaS
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Plans
+  url: plans/heabsy-plans-pricing.yml
+- type: Compliance
+  url: https://heabsy.com/compliance
+- type: Overlay
+  url: overlays/heabsy-openapi-overlay.yaml
+- type: LLMsTxt
+  url: llms/heabsy-llms.txt
+- type: WellKnown
+  url: well-known/heabsy-well-known.yml
+- type: Hosts
+  url: hosts/heabsy-hosts.yml
+- type: Vendors
+  url: vendors/heabsy-vendors.yml
+- type: Security
+  url: https://heabsy.com/products/security
+- type: Blog
+  url: https://heabsy.com/de/blog
+- type: TrustCenter
+  url: security/heabsy-trust-center.yml
+- type: DomainSecurity
+  url: security/heabsy-domain-security.yml
 - type: Website
   url: https://heabsy.com
 - type: Documentation
   url: https://api.heabsy.com/docs
+- type: Pricing
+  url: https://heabsy.com/pricing
+- type: TermsOfService
+  url: https://heabsy.com/terms
+- type: PrivacyPolicy
+  url: https://heabsy.com/privacy
+
+apis: []
+
 x-submission-notes: OpenAI/Anthropic-compatible inference API for EU regulated industries (FEYA s.r.o.,
   Bratislava).
+
 x-submission-probe: root 200; docs 200 'Heabsy Platform API Reference'; api.heabsy.com/openapi.json OpenAPI
   3.1.0 622 paths title 'LiteLLM API'; /v1/models 401; llms.txt 200; 404 probe 404
+
 x-submitted-by: hello@heabsy.com (email/apisio, 2026-09-29)
+x-enrichment:
+  date: '2026-10-02'
+  status: enriched
+  artifacts_added: 17
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

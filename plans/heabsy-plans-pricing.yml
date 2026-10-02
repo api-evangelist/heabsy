@@ -1,0 +1,20 @@
+generated: '2026-10-02'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://heabsy.com/pricing
+sources:
+- https://heabsy.com/pricing
+name: Heabsy pricing
+audience: business-product
+pricing_basis: per-call
+plans:
+- name: Starter
+  price_text: €5K / per project
+  description: First step into enterprise AI from €5K / per project
+- name: Growth
+  price_text: €25K / per project
+  description: Into production from €25K / per project
+- name: Enterprise
+  price_text: Custom / annual contract
+  description: Ongoing arrangement Custom / annual contract
+docs: https://heabsy.com/pricing

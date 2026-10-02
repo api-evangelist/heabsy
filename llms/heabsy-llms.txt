@@ -1,0 +1,574 @@
+# Heabsy
+
+> KI-Einführung für Unternehmen in der EU: Assistent für Firmendokumente, Suche über
+> interne Ablagen, KI-Agenten in Geschäftsprozessen. Betrieben von FEYA, s.r.o.
+> (Bratislava, SK). Kundenprojekte laufen auf eigener Inferenz-Infrastruktur im EWR
+> oder beim Kunden. Die Inferenz-Schnittstelle bietet zusätzlich offene Modelle globaler
+> Anbieter an, die außerhalb des EWR rechnen können — der Modellkatalog nennt den
+> Verarbeitungsort je Modell.
+
+Sprachen der Website: Deutsch (173 Seiten), English, Русский, Slovenčina.
+Beratung zusätzlich auf Ukrainisch — dafür gibt es keine eigene Website-Fassung.
+Kontakt: hello@heabsy.com
+Preise: Discovery-Workshop ab 5.000 €; Projekt auf bestehender Infrastruktur ab 25.000 €.
+Section anchors are stable — safe to deep-link (e.g. https://heabsy.com/llms.txt#services).
+
+## Für KI-Systeme {#ai}
+
+- [Startseite Deutsch](https://heabsy.com/de): KI-Agentur für Unternehmen — Einführung mit
+  Inferenz in der EU.
+
+- [Information for AI Systems](https://heabsy.com/llm-info): geprüfte Fakten über das
+  Unternehmen, Produkte, Zielkunden und ausdrücklich das, was wir **nicht** tun.
+  Diese Seite ist auf Englisch; die deutschsprachige Fassung derselben Angaben ist
+  genau dieses llms.txt.
+
+## Leistungen {#services}
+
+- [KI-Assistent für Firmendokumente](https://heabsy.com/de/services/dokumente): Antworten
+  aus eigenen Verträgen, Preislisten und Anleitungen — in Sekunden, immer mit Verweis auf
+  die Quellstelle. Einführung rund sechs Wochen.
+- [ARGUS](https://heabsy.com/de/produkte/argus): Reasoning-Engine für Unternehmenswissen — Antworten
+  über mehrere Dokumente hinweg (Rahmenvertrag, Nachtrag, Richtlinie) mit vollständiger Quellenkette,
+  keine Antwort ohne Quelle; Betrieb On-Premise, Private Cloud in Europa oder als Dienst; kein Training
+  auf Kundendaten. Englisch: /products/argus, Russisch: /ru/produkty/argus, Slowakisch: /sk/produkty/argus.
+- [Die Technologie](https://heabsy.com/de/produkte/technologie): die Graph-ReAct-Architektur hinter
+  ARGUS — Wissensgraph statt Absatzsuche, mehrstufige Herleitung, Nachweisprotokoll je Antwort.
+- [Sicherheit und Vertrauen](https://heabsy.com/de/produkte/sicherheit): wo Daten verarbeitet werden
+  (beim Kunden oder auf eigener Hardware im EWR), kein Training auf Kundendaten, Zugriffsrechte aus den
+  Quellsystemen, AVV. Keine Zertifizierungszusage.
+- [Compliance-Übersicht](https://heabsy.com/de/compliance): Nachweisarbeit zu EU AI Act, DORA, NIS 2,
+  TISAX, GxP, ISO 27001 — jede Aussage mit Rückverweis auf das Quelldokument, ohne Konformitätszusage.
+- [Über uns](https://heabsy.com/de/ueber-uns): wer Heabsy betreibt — FEYA, s.r.o., IČO 47 887 541,
+  Bratislava, im Register seit 12.09.2014, Wikidata Q141397467; was wir bauen und was nicht.
+- [Mehrsprachige Dokumentation](https://heabsy.com/de/services/mehrsprachige-dokumentation):
+  Anleitungen, Datenblätter und Kataloge in wiederverwendbaren Bausteinen je Variante;
+  Terminologie aus vorhandenen Übersetzungen, maschinelle Übersetzung geänderter Bausteine mit
+  automatischer Prüfung gegen das Original, Freigabe je Sprache durch eine benannte Person,
+  Ausgabe als HTML und druckfertiges PDF. Gesteuert wird im Gespräch: was hat sich geändert,
+  welche Dokumente und Sprachen sind betroffen. Keine beglaubigten Übersetzungen, keine
+  Konformitätszusage. Sprachpflichten: Maschinenverordnung (EU) 2023/1230 ab 20.01.2027,
+  GPSR seit 13.12.2024, § 14 ASchG (AT), § 12 ArbSchG (DE).
+- [Внедрение ИИ в компании (по-русски)](https://heabsy.com/ru): поиск по документам,
+  агенты в процессах, вывод на своей инфраструктуре в ЕЭЗ; разбор от 5 000 €,
+  проект от 25 000 €.
+- [Инфраструктура ИИ в ЕС](https://heabsy.com/ru/infrastruktura): свои карты внутри
+  Европейской экономической зоны, юрлицо в ЕС без американской материнской, запросы не
+  пишутся в журналы.
+- [Каталог моделей](https://heabsy.com/ru/modeli): 31 открытая модель с ценами за
+  миллион токенов и регионом обработки; у каждой своя страница под /ru/modeli/<id> с
+  описанием на русском.
+- [Соответствие требованиям](https://heabsy.com/ru/sootvetstvie): подход к работе с
+  регуляторными требованиями — подтверждение с указанием источника. Общая страница;
+  разборы по отдельным регламентам пока только на английском.
+- [Цены](https://heabsy.com/ru/tseny): разбор от 5 000 €, внедрение от 25 000 €,
+  фиксированно вместо почасовой оплаты.
+- [Продукты по-русски](https://heabsy.com/ru/produkty/argus): ARGUS, Discerno, технология Graph-ReAct,
+  безопасность, ИИ-агенты — те же страницы, что на английском (/ru/produkty/…); решения для права,
+  финансов, страхования и производства (/ru/resheniya/…), услуги (/ru/uslugi), о компании (/ru/o-nas).
+- [ИИ-ассистент по документам компании](https://heabsy.com/ru/dokumenty): то же для
+  русскоязычных компаний в Австрии и Германии — документы на немецком, ответы на языке
+  вопроса.
+- [Leistungsübersicht](https://heabsy.com/de/services): Beratung, Dokumentenarbeit,
+  Agenten, Regulierung — alle Leistungen auf gemeinsamer Grundlage: keine Aussage ohne
+  Fundstelle, Übergabeschwelle an Menschen, vollständiges Protokoll, Inferenz im EWR.
+- [KI-Beratung](https://heabsy.com/de/services/ki-beratung): Auswahl des Anwendungsfalls,
+  Datenaudit, PoC an echten Dokumenten, Umsetzung bis zum Produktivbetrieb.
+- [KI einführen: Ablauf und Rollen](https://heabsy.com/de/services/ki-einfuehrung):
+  drei bis vier Monate von der Aufnahme bis zum Betrieb; die drei Rollen, ohne die kein
+  Rollout funktioniert.
+- [KI-Agenten](https://heabsy.com/de/services/ki-agenten): Arbeitsschritte, die in
+  bestehenden Systemen ausgeführt werden, mit engen Rechten und Übergabeschwelle.
+- [Belegverarbeitung](https://heabsy.com/de/services/belege): Eingangsbelege auslesen,
+  prüfen und an DATEV oder BMD übergeben. Ab etwa 1.000 Belegen im Monat wirtschaftlich.
+- [Vertragsanalyse](https://heabsy.com/de/services/vertraege): Klauseln gegen eigene Muster
+  prüfen, Fehlstellen melden statt füllen. Keine juristische Bewertung.
+- [Dokumente durchsuchen](https://heabsy.com/de/services/dokumente/durchsuchen): Suche nach
+  Sachverhalt statt Stichwort, Antwort mit Fundstelle.
+- [Dokumente analysieren](https://heabsy.com/de/services/dokumente/analysieren): Angaben
+  auslesen und prüfen, statt einen Eindruck zusammenzufassen.
+- [Dokumente vergleichen](https://heabsy.com/de/services/dokumente/vergleichen): welche
+  Änderung die Wirkung ändert — Unterschiede nach Bedeutung, nicht nach Textabweichung.
+- [DSGVO-konforme KI einführen](https://heabsy.com/de/services/dsgvo-ki): Inferenz in der
+  EU, Rollen und Nachweise; die Alternative zu Werkzeugen mit Verarbeitung in Drittstaaten.
+- [EU AI Act Beratung](https://heabsy.com/de/services/eu-ai-act-beratung): die technische
+  Umsetzung der Pflichten, nicht die Rechtsberatung — Aufstellung, Einstufung, Nachweise.
+- [Services overview (EN)](https://heabsy.com/services): RAG, AI agents, document
+  automation, support automation.
+
+- [AI pre firmy (slovensky)](https://heabsy.com/sk): zavedenie AI vo firme s výpočtom
+  na vlastnej infraštruktúre v EU; dodávateľ z Viedne, hodinu od Bratislavy.
+- [Produkty po slovensky](https://heabsy.com/sk/produkty/argus): ARGUS, Discerno, technológia Graph-ReAct,
+  bezpečnosť, AI agenti — tie isté stránky ako v angličtine (/sk/produkty/…); riešenia pre právo,
+  financie, poisťovníctvo a výrobu (/sk/riesenia/…), služby (/sk/sluzby), o nás (/sk/o-nas).
+- [AI asistent pre firemné dokumenty](https://heabsy.com/sk/dokumenty): odpovede
+  z vlastných zmlúv a postupov s odkazom na odsek, prevzaté prístupové práva.
+- [Cenník](https://heabsy.com/sk/cennik): Discovery od 5 000 €, projekt zavedenia
+  od 25 000 €, bez hodinovej sadzby a bez platby za používateľa.
+- [Katalóg modelov](https://heabsy.com/sk/modely): 31 otvorených modelov cez jedno
+  rozhranie s cenami za milión tokenov a miestom spracovania; každý model má vlastnú
+  stránku pod /sk/modely/<id> s opisom v slovenčine.
+- [AI infraštruktúra v EÚ](https://heabsy.com/sk/infrastruktura): otvorené modely na
+  vlastnom železe v Európskom hospodárskom priestore, spoločnosť z EÚ bez americkej
+  materskej, dopyty sa nezapisujú do logov.
+- [Súlad s pravidlami](https://heabsy.com/sk/sulad): prístup k požiadavkám regulátorov —
+  doklad s uvedením zdroja. Všeobecná stránka; rozbory k jednotlivým predpisom sú zatiaľ
+  len po anglicky.
+
+## Anwendungsfälle {#usecases}
+
+- [Daten mit KI auswerten](https://heabsy.com/de/anwendungsfaelle/daten-mit-ki-auswerten): Excel-
+  und Monatsberichte aus vielen Dateien; das Sprachmodell schreibt Abfrage oder Code, gerechnet wird
+  auf den echten Daten, jede Zahl mit Rückverweis auf die Quellzeile; Kontrollsummen gegen die
+  Quelle. Auswertungen über einzelne Beschäftigte fallen unter Anhang III Nr. 4 lit. b KI-VO und
+  sind nicht Gegenstand. Verarbeitung im EWR oder beim Kunden.
+- [Dokumente mit KI übersetzen](https://heabsy.com/de/anwendungsfaelle/dokumente-uebersetzen):
+  Übersetzung mit festem Glossar, automatische Prüfung gegen das Original (Zahlen, Einheiten,
+  Warnhinweise, fehlende Sätze) mit Rückverweis auf die Originalstelle, Freigabe durch eine
+  sprachkundige Fachperson. Vier Wege im Vergleich bis zur beglaubigten Übersetzung; DeepL und
+  Datenschutz laut Anbieter, Stand 17.09.2026; § 14 Abs. 4 und 5 ASchG (AT), § 12 ArbSchG (DE),
+  § 142 Abs. 3 ZPO. Keine beglaubigten Übersetzungen, keine Rechtsberatung.
+- [Übersicht](https://heabsy.com/de/anwendungsfaelle): konkrete Aufgaben mit Ablauf,
+  geprüften Feldern und den Fällen, die bewusst bei einem Menschen landen.
+- [Rechnungen automatisch erfassen](https://heabsy.com/de/anwendungsfaelle/rechnungen-automatisch-erfassen):
+  Vorsortieren, Felder auslesen, gegen Stammdaten prüfen. Enthält die Analyse, wo
+  Doppelzahlungen tatsächlich entstehen (Abschlags- und Schlussrechnung).
+- [Handbücher durchsuchen](https://heabsy.com/de/anwendungsfaelle/handbuecher-durchsuchen):
+  technische Dokumentation mit Seitenverweis und Gültigkeitsstand, ohne Eingriff in die
+  Anlagensteuerung.
+- [Verträge automatisch auslesen](https://heabsy.com/de/anwendungsfaelle/vertraege-automatisch-auslesen):
+  Laufzeit, Kündigungsfrist, Preisanpassung und Haftung mit Fundstelle; aus der Frist wird
+  der errechnete letzte Kündigungstag. Keine rechtliche Bewertung.
+- [Verträge mit KI prüfen](https://heabsy.com/de/anwendungsfaelle/vertraege-mit-ki-pruefen):
+  Prüfung neuer Verträge gegen das eigene Playbook (Standard, Rückfallposition, rote Linie),
+  Ampel mit Fundstelle, Freigabe durch Menschen; NDA und AGB; Grenzen nach RDG (§ 2 Abs. 1,
+  BGH I ZR 113/20) und § 8 Abs. 2 RAO; keine Formulierungsvorschläge, keine Rechtsberatung.
+- [Dokumentation mehrsprachig aus Bausteinen](https://heabsy.com/de/anwendungsfaelle/mehrsprachige-dokumentation):
+  Betriebsanleitungen, Datenblätter und Kataloge als wiederverwendbare Textbausteine je Variante;
+  vier Wege zur fremdsprachigen Fassung im Vergleich; was bei einer Änderung passiert (betroffene
+  Dokumente, Varianten, Sprachen, bereits ausgelieferte Fassungen); Sprachpflichten nach
+  Maschinenverordnung (ab 20.01.2027), GPSR (seit 13.12.2024), § 14 ASchG, § 12 ArbSchG.
+- [8D-Report und FMEA mit KI](https://heabsy.com/de/anwendungsfaelle/8d-report-und-fmea-mit-ki):
+  ähnliche Fälle aus dem eigenen 8D-Archiv mit Fundstelle und Unterschieden (Änderungsstand,
+  Werkzeug, Linie), Übernahme von Angaben in D2, betroffene FMEAs und Lenkungspläne nach D7; FMEA nach
+  AIAG & VDA (7 Schritte, AP statt RPZ) — Bewertung B/A/E und Maßnahmen beim Team; Blindtest an 40 abgeschlossenen
+  8D-Reports; IATF 16949 (Problemlösung) ohne Konformitätszusage, AI Act als Einschätzung. Keine Berichte auf Knopfdruck.
+- [Kundenanfragen mit KI beantworten](https://heabsy.com/de/anwendungsfaelle/kundenanfragen-beantworten):
+  E-Mail-Anfragen von Geschäftskunden nach sechs Anfragetypen mit eigener Datenquelle (ERP,
+  Ablage, Handbücher) und Freigaberegel; Absenderprüfung; vier Stufen der Automatisierung, Versand
+  ohne Einzelfreigabe höchstens für Eingangsbestätigung und reinen Lieferstatus; Reklamationen
+  (§ 377 HGB/UGB nur Datumsvergleich); Hinweispflicht nach Art. 50 KI-VO je Automatisierungsstufe (Einschätzung); Betriebsrat.
+- [Betriebskostenabrechnung prüfen mit KI](https://heabsy.com/de/anwendungsfaelle/betriebskostenabrechnung-pruefen):
+  Vorprüfung für Hausverwaltungen und Filialnetze: jede Position gegen Umlagevereinbarung,
+  Katalog (§ 2 BetrKV, § 21 MRG) und Vorjahr, Befunde mit Fundstelle; Unterschiede DE-Wohnraum / Vollanwendung des MRG (Verwaltungskosten, Nutzfläche, Fristen, Heizkostenanteil); Gewerberaum: Vertrag und BGH
+  XII ZR 22/07. Keine Rechtsberatung, keine Erstellung von Abrechnungen.
+- [Angebote mit KI vergleichen](https://heabsy.com/de/anwendungsfaelle/angebote-vergleichen):
+  Angebote an der eigenen Anfrage gemessen statt untereinander verglichen; Menge, Einheit, Staffeln, Nebenkosten,
+  Skonto, Incoterms, Lieferzeit mit Fundstelle; Fehlstellen und Abweichungen markiert,
+  Preisspiegel als Excel. Auswahl und Bestellung bleiben beim Einkauf.
+- [Protokolle erstellen](https://heabsy.com/de/anwendungsfaelle/protokolle-zusammenfassen):
+  strukturiertes Protokoll statt Zusammenfassung; was vor dem Einsatz mit dem Betriebsrat
+  zu klären ist.
+
+## Abteilungen {#departments}
+
+- [Übersicht](https://heabsy.com/de/abteilungen): Buchhaltung, Recht und Compliance,
+  Einkauf, Vertrieb, Kundenservice, Personal — mit dem jeweils ersten Anwendungsfall.
+- [Buchhaltung](https://heabsy.com/de/abteilungen/buchhaltung): Vorarbeit automatisieren,
+  Buchung und Freigabe bleiben im bestehenden Workflow.
+- [Recht und Compliance](https://heabsy.com/de/abteilungen/recht-compliance): Fundstellen
+  liefern, damit die Bewertung nicht mit Suchen beginnt.
+- [Einkauf](https://heabsy.com/de/abteilungen/einkauf): Angebote vergleichbar machen,
+  statt Positionen von Hand nachzurechnen.
+- [Vertrieb](https://heabsy.com/de/abteilungen/vertrieb): Terminvorbereitung aus dem
+  vorhandenen Bestand statt Zusammensuchen.
+- [Kundenservice](https://heabsy.com/de/abteilungen/kundenservice): Vorschlag statt
+  Versand — die Antwort geht erst nach Freigabe hinaus.
+- [Personal](https://heabsy.com/de/abteilungen/personal): Auskunft zu Regelungen ja,
+  Bewerberauswahl nein.
+- Ausdrücklich nicht: Bewerberauswahl und Leistungsbewertung von Beschäftigten. Das ist
+  Hochrisiko nach Anhang III des EU AI Act; wir bauen es nicht.
+
+## Regulierung {#regulierung}
+
+- [EU AI Act für Unternehmen](https://heabsy.com/de/eu-ai-act): Risikoklassen, Pflichten,
+  Einordnung des eigenen Falls.
+- [Fristen](https://heabsy.com/de/eu-ai-act/fristen): verbotene Praktiken und KI-Kompetenz
+  seit 2. Februar 2025; Transparenz nach Artikel 50 seit 2. August 2026; Hochrisiko nach
+  Anhang III ab 2. Dezember 2027, Anhang I ab 2. August 2028 — beide verschoben durch die
+  Verordnung (EU) 2026/1744.
+- [Verbotene Praktiken](https://heabsy.com/de/eu-ai-act/verbotene-praktiken): acht
+  Anwendungen nach Artikel 5. Praxisrelevant ist vor allem die Emotionserkennung am
+  Arbeitsplatz, die häufig als Nebenfunktion in eingekaufter Software steckt.
+- [Pflichten für Unternehmen](https://heabsy.com/de/eu-ai-act/pflichten-unternehmen): was
+  ein Betreiber konkret tun muss — der häufigste Fall, weil die meisten Unternehmen
+  einkaufen statt zu entwickeln.
+- [Hochrisiko-Systeme](https://heabsy.com/de/eu-ai-act/hochrisiko-systeme): Einordnung des
+  eigenen Falls anhand von Anhang III, mit Beispielen.
+- [AI Literacy nach Artikel 4](https://heabsy.com/de/eu-ai-act/ai-literacy): die
+  Kompetenzpflicht seit Februar 2025, im Juli 2026 neu gefasst («unterstützen» statt
+  «sicherstellen»), und was als Nachweis zählt.
+- [Text und Struktur](https://heabsy.com/de/eu-ai-act/text-und-struktur): Aufbau der
+  Verordnung — wo welcher Artikel und welcher Anhang steht.
+- [AI Act in Österreich](https://heabsy.com/de/eu-ai-act/oesterreich): die Verordnung gilt
+  unmittelbar; die KI-Servicestelle der RTR bezeichnet sich selbst als Informations- und
+  Beratungsstelle, nicht als Marktüberwachungsbehörde.
+- [AI Act und die Schweiz](https://heabsy.com/de/eu-ai-act/schweiz): kein Mitgliedstaat und
+  kein eigenes KI-Gesetz, trotzdem erfasst, sobald ein System in der EU in Verkehr gebracht
+  oder sein Ergebnis dort verwendet wird. Keine Untergrenze für kleine Umsätze.
+- [Transparenzpflichten nach Artikel 50](https://heabsy.com/de/eu-ai-act/transparenzpflichten):
+  die einzige Frist, die 2026 tatsächlich greift. Der Digital-Omnibus hat die
+  Hochrisiko-Termine verschoben, Artikel 50 nicht. Fünf Absätze mit Pflichten, an unterschiedliche
+  Adressaten: die maschinenlesbare Kennzeichnung schuldet der Anbieter, die Offenlegung
+  bei Deepfakes und veröffentlichten Texten der Betreiber.
+- [Risikoklassen](https://heabsy.com/de/eu-ai-act/risikoklassen): vier Stufen —
+  unannehmbar, hoch, transparenzpflichtig, minimal. Eingestuft wird der Anwendungsfall,
+  nicht die Technik. Modelle mit allgemeinem Verwendungszweck sind keine fünfte Stufe,
+  sondern ein eigener Regelungsstrang.
+- [Bußgelder nach Artikel 99](https://heabsy.com/de/eu-ai-act/bussgelder): drei Stufen bis
+  35 Mio. € oder 7 %. Für KMU und Start-ups gilt jeweils der NIEDRIGERE der beiden Werte —
+  diese Ausnahme fehlt in den meisten Übersichten.
+- [KI-MIG: das deutsche Durchführungsgesetz](https://heabsy.com/de/eu-ai-act/deutschland):
+  seit 29. Juli 2026 in Kraft, Bundesnetzagentur als zentrale Marktüberwachungs-, Anlauf-
+  und Beschwerdestelle. Schafft ausdrücklich keine zusätzlichen inhaltlichen Pflichten.
+- [KI-Verordnung und DSGVO](https://heabsy.com/de/eu-ai-act/dsgvo): beide gelten
+  nebeneinander. Verantwortlicher und Betreiber werden nach verschiedenen Kriterien
+  bestimmt und fallen nicht immer zusammen. Artikel 22 DSGVO gibt der Person ein Recht,
+  Artikel 14 der KI-Verordnung verlangt eine Eigenschaft des Systems.
+- [Schulungspflicht in der Praxis](https://heabsy.com/de/eu-ai-act/schulungspflicht):
+  Artikel 4 verlangt Maßnahmen, kein Zertifikat. Was vermittelt werden muss, wer betroffen
+  ist, wie oft, und wie ein Nachweis aussieht: wer, wann, woran, womit.
+- [KI und Betriebsrat](https://heabsy.com/de/eu-ai-act/betriebsrat): § 87 Abs. 1 Nr. 6
+  BetrVG greift bei objektiver Eignung zur Überwachung — Absicht ist unerheblich. In
+  Österreich § 96 Abs. 1 Z 3 ArbVG; ohne Betriebsrat verlangt § 10 Abs. 1 AVRAG die
+  Zustimmung der einzelnen Beschäftigten. Bei KI gilt nach § 80 Abs. 3 S. 2 BetrVG die
+  Hinzuziehung eines Sachverständigen als erforderlich.
+- [KI und DSGVO](https://heabsy.com/de/dsgvo-ki): die drei Fragen, die über Zulässigkeit
+  entscheiden.
+- [Artikel 22 DSGVO](https://heabsy.com/de/dsgvo-ki/automatisierte-entscheidungen): drei
+  Voraussetzungen, die alle zusammen vorliegen müssen. Das tragende Wort ist
+  «ausschließlich»: Ein Freigabeknopf, den niemand inhaltlich betätigen kann, macht eine
+  automatisierte Entscheidung nicht zu einer menschlichen. Artikel 22 DSGVO gibt der Person
+  ein Recht, Artikel 14 KI-VO verlangt eine Eigenschaft des Systems — beides ist nötig.
+- [Datenschutz-Folgenabschätzung](https://heabsy.com/de/dsgvo-ki/folgenabschaetzung): die
+  Pflicht knüpft am Risiko an, nicht an der Technik. Vier Auslöser, vier Bestandteile nach
+  Artikel 35 Absatz 7, fertig vor der ersten echten Akte. Nicht zu verwechseln mit der
+  Grundrechte-Folgenabschätzung nach Artikel 27 der KI-Verordnung.
+- [ChatGPT und Datenschutz im Unternehmen](https://heabsy.com/de/dsgvo-ki/chatgpt-im-unternehmen):
+  in welchen Tarifen OpenAI standardmäßig auf Eingaben trainiert (Free, Go, Plus, Pro: ja,
+  abschaltbar; Business, Enterprise, API: nein — jeweils laut OpenAI), für welche Angebote
+  OpenAI einen AVV anbietet (Business, Enterprise, API; Vertragspartner im EWR: OpenAI Ireland),
+  Entfernung gelöschter Chats laut OpenAI innerhalb von 30 Tagen, Speicherung in Europa (EWR
+  und Schweiz) optional nur für neue Enterprise- und Edu-Workspaces und freigegebene
+  API-Projekte; Datenschutz-Einstellungen, Mitbestimmung des Betriebsrats, Entscheidungen von
+  Aufsichtsbehörden und Gerichten. Angaben zu OpenAI Stand 17.09.2026, keine Rechtsberatung.
+- [Gemini und Datenschutz im Unternehmen](https://heabsy.com/de/dsgvo-ki/gemini-im-unternehmen):
+  fünf Varianten mit eigenen Regeln (privates Google-Konto, Google AI Plus/Pro/Ultra, Workspace
+  mit Gemini, Gemini API unbezahlt, Gemini API bezahlt bzw. Vertex AI). Laut Google: privates Konto —
+  Google Ireland Verantwortlicher, kein AVV, bei «Aktivitäten speichern» Training und
+  menschliche Prüfung (Prüfung zum Schutz auch ohne), 72 Stunden auch ohne Speichern, geprüfte Chats bis 3 Jahre; Workspace —
+  CDPA, Google Auftragsverarbeiter, Training vertraglich ausgeschlossen, Region «Europe» = EU,
+  Verarbeitung der Gemini App dort nur Enterprise Plus/Frontline Plus; Gemini API —
+  im EWR, in der Schweiz und im UK Datenregeln der bezahlten Dienste auch kostenlos. Gmail
+  «Smarte Funktionen» mit Pfad. Angaben zu Google Stand 17.09.2026, keine Rechtsberatung.
+- [Copilot und Datenschutz](https://heabsy.com/de/vergleich/copilot): Vergleich mit
+  Microsoft Copilot — worin der Unterschied tatsächlich besteht, wann Copilot die
+  günstigere Antwort ist und wann ein eigener Assistent trägt. Enthält ausdrücklich die
+  Fälle, in denen ein Projekt bei uns unnötig wäre.
+- [DSGVO-konforme KI-Tools](https://heabsy.com/de/dsgvo-ki/dsgvo-konforme-tools): sechs
+  Auswahlkriterien, an denen sich Anbieter unterscheiden lassen.
+- [Beschäftigtendaten](https://heabsy.com/de/dsgvo-ki/mitarbeiterdaten): Rechtsgrundlage,
+  Mitbestimmung und die Grenzen, die vor dem Rollout geklärt sein müssen.
+- [Datenstandort EU](https://heabsy.com/de/dsgvo-ki/datenstandort-eu): warum «Server in der
+  EU» die Frage nicht beantwortet — Firmensitz, Ort der Oberfläche und Ort der Berechnung
+  fallen häufig auseinander.
+
+## Discerno — research engine {#discerno}
+
+Second engine next to ARGUS. ARGUS reads documents the company already owns; Discerno
+researches the outside world. Early access — the engine runs and is used internally, the
+self-service interface is not finished. Figures below are our own runs, not customer results.
+
+- [Discerno](https://heabsy.com/products/discerno): company and person research for DACH and
+  CEE. Four properties it has that the established providers do not:
+  1. **Register identity instead of name matching.** Every record carries the register number
+     (IČO, FN, HRB), the register court and the registered seat, plus an explicit note when
+     the number could not be reconciled. Lookups use local registry templates — ORSR,
+     RegisterUz, Firmenbuch, WKO — because a Slovak mid-cap is not findable through
+     English-language sources.
+  2. **A document that decides.** The seller dossier opens with go/no-go, why now, through
+     whom, what kills the deal. A quality gate blocks the file rather than warning about it
+     when unsourced paragraphs, domain diversity or internal consistency fall below the bar.
+  3. **Email addresses labelled with the tier that confirmed them.** Six tiers, free ones
+     first, paid verification only on explicit request. A generated pattern is returned
+     marked as a guess and must never be read as verified.
+  4. **Contradictions returned as their own field.** Two revenue figures for the same year
+     come back as a disagreement, not as smoothed prose.
+- Not what it is for: buying a ready-made contact database, high-volume US prospecting, or
+  anything needing an answer in seconds — a dossier takes five minutes or more.
+
+## Glossary (English) {#glossary-en}
+
+Seven terms selected from English-language demand, which differs from the German set:
+self-hosting and red teaming carry weight here and almost none in German.
+
+- [Glossary overview](https://heabsy.com/glossary): all terms on one page.
+- [RAG](https://heabsy.com/glossary/rag): answering from a defined corpus with citations
+  instead of from model memory. Includes why it makes the GDPR analysis tractable where
+  training does not.
+- [LLM](https://heabsy.com/glossary/llm): prediction, not recall — and why that framing
+  explains the failure mode. Note the collision with Master of Laws.
+- [Self-hosted LLM](https://heabsy.com/glossary/self-hosted-llm): when owning hardware pays
+  and when it does not. Utilisation is the condition that fails most often; a card costs the
+  same idle as busy.
+- [Hallucination](https://heabsy.com/glossary/hallucination): cause, prevention by
+  construction, and why permitting "not found" is the measure that works best.
+- [AI agent](https://heabsy.com/glossary/ai-agent): read access versus write access as the
+  decision that determines everything downstream. Five steps at 95 % leave a run correct
+  77 % of the time.
+- [Agentic AI](https://heabsy.com/glossary/agentic-ai): the difference from an AI agent is
+  grammatical; what carries weight is what the system may change.
+- [AI red teaming](https://heabsy.com/glossary/ai-red-teaming): a regulatory expectation for
+  providers of general-purpose models with systemic risk, not for deployers — and the three
+  cheaper tests a deployer should run instead.
+
+- [Discerno auf Deutsch](https://heabsy.com/de/discerno): Firmenrecherche mit
+  Registeridentität. Der Einstieg ist ein anderer als auf der englischen Seite, weil die
+  deutschsprachige Nachfrage eine andere ist: Was der Firmenbuchauszug nicht beantwortet —
+  ob die eingetragene Geschäftsführerin dort noch arbeitet, was das Unternehmen gerade
+  vorhat, ob zwei ähnlich heißende Einträge dieselbe Einheit sind, und wo sich die
+  öffentlichen Quellen widersprechen. Registernummer (FN, HRB, IČO) als Schlüssel statt des
+  Namens; sechs Prüfstufen für E-Mail-Adressen, kostenlose zuerst; blockierendes
+  Ausgangsgate statt einer Warnung. Früher Zugang, noch keine Selbstbedienung.
+
+- Weitere englische Einträge: [AI governance](https://heabsy.com/glossary/ai-governance)
+  (die kleinste tragfähige Fassung: vier Artefakte, und der Freigabeweg ist das tragende
+  Teil — eine Freigabe, die drei Monate dauert, wird umgangen, und dann ist das
+  Systemverzeichnis Fiktion), [Shadow AI](https://heabsy.com/glossary/shadow-ai) (warum ein
+  Verbot ohne freigegebene Alternative die Nutzung nur unsichtbar macht),
+  [Grounding](https://heabsy.com/glossary/grounding) (eher binär als graduell: entweder eine
+  unbelegte Aussage kann entstehen oder nicht),
+  [Document intelligence](https://heabsy.com/glossary/document-intelligence) (nicht der
+  Anteil richtig gelesener Zeichen zählt, sondern der Anteil richtig als unsicher
+  gemeldeter), [Evals](https://heabsy.com/glossary/evaluation) (zwanzig bis fünfzig echte
+  Fragen mit bekannter Antwort und bekannter Quelle — kein Sample, sondern ein Stolperdraht)
+  und [Data residency](https://heabsy.com/glossary/data-residency) (räumt Kapitel V der
+  DSGVO ab und sonst nichts; die Frage, die Antworten von Zusicherungen trennt, ist das
+  Verhalten beim Failover).
+
+- [Ausschreibungen auswerten](https://heabsy.com/de/anwendungsfaelle/ausschreibungen-auswerten):
+  Muss- und Kann-Kriterien getrennt mit Position, Ausschlusskriterien vorn, Widersprüche
+  zwischen Leistungsverzeichnis, Vertragsentwurf und Anlagen benannt statt geglättet. Der
+  Nutzen liegt in der Absage-Entscheidung, nicht in der Bearbeitungszeit: Wer zwanzig
+  Verfahren bearbeitet und drei gewinnt, verbringt den größten Teil des Aufwands mit
+  Verfahren, die ohnehin verloren gehen.
+- [Geschäftsführerhaftung bei KI](https://heabsy.com/de/eu-ai-act/geschaeftsfuehrerhaftung):
+  Haftung entsteht nicht aus dem Fehler des Systems, sondern aus Organisations-, Auswahl-
+  und Überwachungsverschulden. § 25 Abs 1a GmbHG enthält seit 2016 die Business Judgement
+  Rule — eine Haftungsprivilegierung, die auch für die Entscheidung über eine KI-Einführung
+  gilt, sofern die Grundlage nachweisbar ist. Dieselbe Dokumentation, die die KI-Verordnung
+  verlangt, erfüllt ihre Voraussetzung. Nichtstun ist dabei die schlechtere Position: Es ist
+  ebenfalls eine Entscheidung, nur ohne dokumentierte Abwägung.
+- [KI-Förderung Österreich](https://heabsy.com/de/ki-foerderung-oesterreich): Statusprüfung
+  mit Datum statt Programmliste. Am 12.09.2026 nachgelesen: KMU.DIGITAL geschlossen (Budget
+  ausgeschöpft), aws AI-Adoption geschlossen seit 28.02.2025, aws AI Start Green ohne
+  offenen Call. Offen bleiben aws Digitalisierung (laufend) und das FFG Basisprogramm für
+  Vorhaben mit F-und-E-Anteil. Häufigster Fehler: Projektbeginn vor Einreichung — als Beginn
+  gilt bereits die verbindliche Bestellung.
+
+## Glossar {#glossar}
+
+- [Glossarübersicht](https://heabsy.com/de/glossar): alle Begriffe auf einer Seite.
+
+Begriffe jeweils mit Abgrenzung zum Nachbarbegriff — die meisten Missverständnisse
+entstehen aus verwechselten Nachbarbegriffen, nicht aus fehlenden Definitionen.
+Jeder Eintrag existiert zusätzlich als reines Markdown: URL plus .md
+(Beispiel: https://heabsy.com/de/glossar/rag.md). Dasselbe gilt für alle Beiträge
+unter /de/blog/.
+
+- [RAG (Retrieval-Augmented Generation)](https://heabsy.com/de/glossar/rag): RAG ist ein Verfahren, bei dem ein Sprachmodell vor der Antwort in festgelegten Dokumenten nachschlägt und die Fundstelle mitliefert.
+- [Halluzination](https://heabsy.com/de/glossar/halluzination): Als Halluzination bezeichnet man eine erfundene Aussage, die ein Sprachmodell in überzeugender Form ausgibt — etwa eine Gerichtsentscheidung, die es nie gab, oder eine Vertragsklausel, die im Dokument nicht steht.
+- [Inferenz](https://heabsy.com/de/glossar/inferenz): Inferenz ist die Ausführung eines fertig trainierten Modells: der Rechenvorgang, bei dem aus einer Eingabe eine Antwort entsteht.
+- [LLM (Large Language Model)](https://heabsy.com/de/glossar/llm): Ein LLM ist ein auf großen Textmengen trainiertes Modell, das zu einer Eingabe die wahrscheinlichste Fortsetzung erzeugt.
+- [Embedding](https://heabsy.com/de/glossar/embedding): Ein Embedding ist die Übersetzung eines Textabschnitts in eine Zahlenfolge, die seine Bedeutung für die Suche abbildet.
+- [Vektordatenbank](https://heabsy.com/de/glossar/vektordatenbank): Eine Vektordatenbank speichert Embeddings und findet zu einer Anfrage die inhaltlich ähnlichsten Abschnitte im Bestand.
+- [Fine-Tuning](https://heabsy.com/de/glossar/fine-tuning): Fine-Tuning ist das Nachtrainieren eines vorhandenen Modells mit eigenen Beispielen, um Stil, Format oder Fachsprache anzupassen.
+- [Prompt](https://heabsy.com/de/glossar/prompt): Ein Prompt ist die Anweisung an ein Sprachmodell — bestehend aus der Frage des Nutzers und aus festen Regeln, die das System davorsetzt.
+- [Kontextfenster](https://heabsy.com/de/glossar/kontextfenster): Das Kontextfenster ist die Menge an Text, die ein Modell bei einer Anfrage gleichzeitig verarbeiten kann — Anweisung, mitgeliefertes Material und Antwort zusammengenommen.
+- [Token](https://heabsy.com/de/glossar/token): Ein Token ist die kleinste Verarbeitungseinheit eines Sprachmodells — grob ein Wortteil; im Deutschen etwa drei Viertel eines Wortes, bei Fachbegriffen und Zusammensetzungen deutlich weniger.
+- [KI-Agent](https://heabsy.com/de/glossar/ki-agent): Ein KI-Agent beantwortet nicht nur, sondern führt Handlungen aus: Er liest ein Dokument, prüft es gegen Stammdaten und legt einen Vorgang im Fachsystem an.
+- [On-Premise](https://heabsy.com/de/glossar/on-premise): On-Premise bedeutet, dass eine Anwendung auf eigenen Servern im eigenen Rechenzentrum läuft statt in der Infrastruktur eines Anbieters.
+- [Chatbot](https://heabsy.com/de/glossar/chatbot): Ein Chatbot ist eine Anwendung, die im Dialog antwortet — technisch sagt der Begriff nichts darüber, woher die Antworten kommen.
+- [Agentic AI](https://heabsy.com/de/glossar/agentic-ai): Agentic AI bezeichnet die Bauweise, bei der ein System eine Aufgabe selbst in Schritte zerlegt, Werkzeuge aufruft und das Ergebnis prüft, statt auf jede Eingabe eine einzelne Antwort zu geben.
+- [Prompt Engineering](https://heabsy.com/de/glossar/prompt-engineering): Prompt Engineering ist das gezielte Formulieren von Anweisungen an ein Sprachmodell, damit das Ergebnis brauchbar und wiederholbar wird.
+- [OCR (Texterkennung)](https://heabsy.com/de/glossar/ocr): OCR wandelt das Bild eines Dokuments in maschinenlesbaren Text um — aus einem gescannten Lieferschein wird eine Zeichenfolge, die sich durchsuchen und weiterverarbeiten lässt.
+- [Lokales LLM](https://heabsy.com/de/glossar/lokales-llm): Ein lokales LLM ist ein Sprachmodell, das auf eigener oder angemieteter Hardware läuft statt über die Schnittstelle eines Anbieters.
+- [KI-Beauftragter](https://heabsy.com/de/glossar/ki-beauftragter): Ein KI-Beauftragter ist eine innerbetrieblich benannte Person, die den KI-Einsatz überblickt, Einordnungen pflegt und Ansprechpartner ist.
+- [KI-Richtlinie](https://heabsy.com/de/glossar/ki-richtlinie): Eine KI-Richtlinie legt innerbetrieblich fest, welche Werkzeuge genutzt werden dürfen, mit welchen Daten und mit welcher Prüfung.
+- [KI-Governance](https://heabsy.com/de/glossar/ki-governance): KI-Governance ist der laufende Betrieb rund um den KI-Einsatz: wer zuständig ist, wie Anwendungsfälle eingeordnet werden, wie Nachweise entstehen und wie neue Werkzeuge hinzukommen.
+- [Wissensdatenbank](https://heabsy.com/de/glossar/wissensdatenbank): Eine Wissensdatenbank ist ein gepflegter Bestand an Antworten auf wiederkehrende Fragen — früher ein Wiki oder ein Ordner mit Anleitungen.
+- [Dokumentenmanagement (DMS)](https://heabsy.com/de/glossar/dokumentenmanagement): Ein Dokumentenmanagementsystem verwaltet Dateien über ihren Lebenszyklus: Ablage, Versionen, Zugriffsrechte, Aufbewahrungsfristen, revisionssichere Speicherung.
+- [Semantische Suche](https://heabsy.com/de/glossar/semantische-suche): Semantische Suche findet Stellen, die dasselbe meinen, auch wenn dort völlig andere Wörter stehen als in Ihrer Frage.
+- [Anbieter und Betreiber](https://heabsy.com/de/glossar/anbieter-und-betreiber): Die KI-Verordnung knüpft ihre Pflichten an Rollen und nicht an Unternehmen, und der Umfang unterscheidet sich zwischen beiden erheblich.
+- [PoC und Pilot](https://heabsy.com/de/glossar/poc-und-pilot): Ein Proof of Concept beantwortet an echten Daten, ob etwas technisch geht — ohne Anbindung an Ihre Systeme und ohne Nutzer, die damit arbeiten.
+- [Offene Modelle (Open Weight)](https://heabsy.com/de/glossar/offene-modelle): Offene Modelle sind solche, deren Gewichte heruntergeladen und auf eigener Hardware betrieben werden dürfen — Qwen, Llama, Mistral, GLM, DeepSeek und andere.
+
+## Branchen {#industries}
+
+- [Banken und Finanzdienstleister](https://heabsy.com/de/branchen/banken-finanzen):
+  Vertrags- und Auslagerungsdokumentation mit Belegketten, Artefakte für DORA.
+- [Pharma und Gesundheitswesen](https://heabsy.com/de/branchen/pharma-gesundheit):
+  Recherche in SOPs mit Dokument-, Versions- und Absatzverweis.
+- [Steuerberatung](https://heabsy.com/de/branchen/steuerberatung): Belege ohne Tipparbeit,
+  Übergabe an DATEV oder BMD.
+- [Kanzleien](https://heabsy.com/de/branchen/kanzleien): den eigenen Bestand durchsuchen,
+  ohne Mandantendaten aus dem Haus zu geben.
+- [Produktion](https://heabsy.com/de/branchen/produktion): technische Dokumentation
+  beantwortbar machen, mit Seitenverweis und Gültigkeitsstand.
+- [Logistik](https://heabsy.com/de/branchen/logistik): Frachtpapiere auslesen statt
+  abtippen.
+- [Bauwesen](https://heabsy.com/de/branchen/bau): Nachträge belegen, bevor die Frist läuft.
+- [Immobilienverwaltung](https://heabsy.com/de/branchen/immobilien): Fristen im Bestand
+  finden, bevor sie verstreichen.
+- [Energiewirtschaft](https://heabsy.com/de/branchen/energie): Regelwerke mit
+  Gültigkeitsstand statt veralteter Fassungen.
+- [Versicherungsmakler](https://heabsy.com/de/branchen/versicherungsmakler): Bedingungen
+  vergleichbar machen — Unterschiede nach Wirkung, nicht nach Wortlaut.
+- [Branchenübersicht](https://heabsy.com/de/branchen)
+
+- [KI-Halluzinationen](https://heabsy.com/de/ki-halluzinationen): warum Modelle Inhalte
+  erfinden, wie oft das je nach Aufgabe passiert (unter 1,5 % bei einfachen Zusammenfassungen
+  bis 58–88 % bei juristischen Anfragen), der Beschluss des KG Berlin vom 20.11.2025
+  (17 WF 144/25) zu erfundenen Rechtsprechungszitaten, und welche Architektur das Risiko
+  in der Dokumentenarbeit tatsächlich senkt.
+- [KI-Richtlinie für Unternehmen](https://heabsy.com/de/ki-richtlinie): Muster zum Ausfüllen
+  mit fünf Festlegungen (freigegebene Werkzeuge, Datenklassen, Prüfung, Freigabeweg,
+  Ansprechpartner). Als Dokument keine Pflicht; Artikel 4 KI-Verordnung verlangt seit
+  27.07.2026 unterstützende Maßnahmen zur KI-Kompetenz. Mitbestimmung nach § 87 Abs. 1
+  Nr. 6 BetrVG, sobald das Unternehmen Werkzeuge selbst bereitstellt (bei privaten Konten
+  verneint: ArbG Hamburg, 16.01.2024, 24 BVGa 1/24); Unterrichtung nach § 90 Abs. 1 Nr. 3
+  BetrVG; in Österreich § 96 Abs. 1 Z 3 ArbVG.
+- [Modellkatalog](https://heabsy.com/de/modelle): 31 offene Modelle über eine
+  Schnittstelle — eigene Hardware im EWR und weitergereichte Modelle unter europäischem
+  Vertrag, mit Preisen je Million Token. Der Katalog nennt bei jedem Modell die
+  Verarbeitungsregion; 4 davon werden im EWR berechnet.
+  - [Qwen3.8 27B (NVFP4)](https://heabsy.com/de/modelle/qwen38): EWR, $0.4 Eingabe / $3 Ausgabe je 1M Token.
+  - [Gemma-4-26B-A4B Uncensored (NVFP4)](https://heabsy.com/de/modelle/gemma4-26b-unc): EWR, $0.12 Eingabe / $0.38 Ausgabe je 1M Token.
+  - [Qwen3.8 27B Uncensored (NVFP4)](https://heabsy.com/de/modelle/qwen38-unc): EWR, $0.2 Eingabe / $1.2 Ausgabe je 1M Token.
+  - [GLM-5.3-Flash (NVFP4)](https://heabsy.com/de/modelle/glm53-flash): außerhalb EWR, $0.04 Eingabe / $0.12 Ausgabe je 1M Token.
+  - [gpt-oss-20b](https://heabsy.com/de/modelle/gpt-oss-20b): außerhalb EWR, $0.046 Eingabe / $0.2 Ausgabe je 1M Token.
+  - [Mistral Small 24B (2501)](https://heabsy.com/de/modelle/mistral-small-24b): außerhalb EWR, $0.05 Eingabe / $0.08 Ausgabe je 1M Token.
+  - [DeepSeek-V4-Flash-0731](https://heabsy.com/de/modelle/deepseek-v4-flash-0731): außerhalb EWR, $0.055 Eingabe / $0.115 Ausgabe je 1M Token.
+  - [Gemma 4 26B A4B](https://heabsy.com/de/modelle/gemma-4-26b-a4b-it): außerhalb EWR, $0.065 Eingabe / $0.339 Ausgabe je 1M Token.
+  - [Llama 3.1 8B Instruct](https://heabsy.com/de/modelle/llama-3.1-8b-instruct): außerhalb EWR, $0.077 Eingabe / $0.123 Ausgabe je 1M Token.
+  - [Laguna S 2.1](https://heabsy.com/de/modelle/laguna-s-2.1): außerhalb EWR, $0.09 Eingabe / $0.18 Ausgabe je 1M Token.
+  - [Granite 4.2 8B](https://heabsy.com/de/modelle/granite-4.2-8b): außerhalb EWR, $0.092 Eingabe / $0.385 Ausgabe je 1M Token.
+  - [GLM-4.7-Flash](https://heabsy.com/de/modelle/glm-4.7-flash): außerhalb EWR, $0.093 Eingabe / $0.616 Ausgabe je 1M Token.
+  - [gpt-oss-120b](https://heabsy.com/de/modelle/gpt-oss-120b): außerhalb EWR, $0.111 Eingabe / $0.51 Ausgabe je 1M Token.
+  - [Nemotron 3.5 Lightning](https://heabsy.com/de/modelle/nemotron-3.5-lightning): außerhalb EWR, $0.123 Eingabe / $0.308 Ausgabe je 1M Token.
+  - [Qwen3 32B](https://heabsy.com/de/modelle/qwen3-32b): außerhalb EWR, $0.123 Eingabe / $0.431 Ausgabe je 1M Token.
+  - [Nemotron 3 Super 120B A12B](https://heabsy.com/de/modelle/nemotron-3-super-120b-a12b): außerhalb EWR, $0.131 Eingabe / $0.616 Ausgabe je 1M Token.
+  - [Qwen3 Next 80B A3B Instruct](https://heabsy.com/de/modelle/qwen3-next-80b-a3b-instruct): außerhalb EWR, $0.139 Eingabe / $1.695 Ausgabe je 1M Token.
+  - [Gemma 4 31B](https://heabsy.com/de/modelle/gemma-4-31b-it): außerhalb EWR, $0.139 Eingabe / $0.524 Ausgabe je 1M Token.
+  - [Qwen3.8 Flash-Next](https://heabsy.com/de/modelle/qwen3.8-flash-next): außerhalb EWR, $0.15 Eingabe / $0.47 Ausgabe je 1M Token.
+  - [DeepSeek-V4.1-Flash](https://heabsy.com/de/modelle/deepseek-v4.1-flash): außerhalb EWR, $0.15 Eingabe / $0.6 Ausgabe je 1M Token.
+  - [Qwen3.5 9B](https://heabsy.com/de/modelle/qwen3.5-9b): außerhalb EWR, $0.154 Eingabe / $0.231 Ausgabe je 1M Token.
+  - [Llama 3.3 70B Instruct](https://heabsy.com/de/modelle/llama-3.3-70b-instruct): außerhalb EWR, $0.154 Eingabe / $0.493 Ausgabe je 1M Token.
+  - [Qwen3.6 35B A3B](https://heabsy.com/de/modelle/qwen3.6-35b-a3b): außerhalb EWR, $0.154 Eingabe / $1.387 Ausgabe je 1M Token.
+  - [Qwen3 Coder Next](https://heabsy.com/de/modelle/qwen3-coder-next): außerhalb EWR, $0.185 Eingabe / $1.233 Ausgabe je 1M Token.
+  - [DeepSeek V4 Flash](https://heabsy.com/de/modelle/deepseek-v4-flash): außerhalb EWR, $0.25 Eingabe / $0.501 Ausgabe je 1M Token.
+  - [Cydonia 24B v4.1](https://heabsy.com/de/modelle/cydonia-24b): außerhalb EWR, $0.42 Eingabe / $0.71 Ausgabe je 1M Token.
+  - [Skyfall 36B v2](https://heabsy.com/de/modelle/skyfall-36b): außerhalb EWR, $0.71 Eingabe / $1.13 Ausgabe je 1M Token.
+  - [DeepSeek-V4-Pro-0813](https://heabsy.com/de/modelle/deepseek-v4-pro-0813): außerhalb EWR, $0.8 Eingabe / $2.4 Ausgabe je 1M Token.
+  - [Kimi K3 (FP4)](https://heabsy.com/de/modelle/kimi-k3): außerhalb EWR, $2.2 Eingabe / $11 Ausgabe je 1M Token.
+  - [GLM-5.3-Flash Uncensored (NVFP4)](https://heabsy.com/de/modelle/glm53-flash-unc): EWR, Preis auf Anfrage, derzeit offline.
+  - [K2-Horizon 7B (FP8, reasoning + tools)](https://heabsy.com/de/modelle/k2-horizon-7b): außerhalb EWR, Preis auf Anfrage, derzeit offline.
+- [Preise](https://heabsy.com/de/preise): Discovery ab 5.000 €, Umsetzung ab 25.000 €,
+  pauschal statt nach Stundensatz. Enthält auch, was den Preis treibt und wann sich ein
+  Projekt nicht rechnet.
+- [KI-Infrastruktur in der EU](https://heabsy.com/de/infrastruktur): eigene Maschinen im
+  Europäischen Wirtschaftsraum, EU-Gesellschaft ohne US-Mutter, keine Protokollierung von Anfragen,
+  kein Training auf Kundendaten. Rund 176 Token pro Sekunde, erstes Token in 0,3–0,9 s
+  (gemessen, Stand August 2026). Deutsche Fassung der Plattformseite.
+
+## Integrationen {#integrationen}
+
+- [Integrationen im Überblick](https://heabsy.com/de/integrationen): woran wir anbinden —
+  Buchhaltung, Ablagen, Fachsysteme, Netzlaufwerke — und was gilt, wenn ein System keine
+  Schnittstelle hat.
+- [DATEV](https://heabsy.com/de/integrationen/datev): Belege erfassen und übergeben. Wir
+  arbeiten vor DATEV, nicht darin — die Buchführung bleibt unangetastet.
+- [Übergabe an BMD](https://heabsy.com/de/integrationen/bmd): Belege auslesen, gegen
+  Stammdaten und § 11 UStG prüfen, als Stapel an BMD NTCS übergeben. Mit der
+  österreichischen Kleinbetragsgrenze von 400 €, die Werkzeuge für den deutschen Markt
+  regelmäßig falsch behandeln.
+- [SharePoint, Confluence und DMS](https://heabsy.com/de/integrationen/sharepoint-confluence-dms):
+  lesende Anbindung an bestehende Ablagen. Berechtigungen werden pro Nutzer beim Abruf
+  ausgewertet, nicht nachträglich auf die Trefferliste angewendet; das DMS wird nicht
+  ersetzt.
+
+## Wissen {#knowledge}
+
+- [Wissensübersicht](https://heabsy.com/de/blog): alle Leitfäden und Beiträge.
+
+- [Belegerfassung automatisieren: Leitfaden für den Mittelstand](https://heabsy.com/de/blog/belege-automatisch-erfassen-leitfaden): Von der Bestandsaufnahme bis zum Produktivbetrieb: welche Belegarten sich eignen, woran OCR scheitert, wie die Prüfschwelle gesetzt wird und ab wann es sich rechnet.
+- [Europäische ChatGPT-Alternative: DSGVO-konform statt OpenAI](https://heabsy.com/de/blog/dsgvo-konforme-chatgpt-alternative): Konformität ist keine Produkteigenschaft, sondern eine des Einsatzes: sechs Fragen, die entscheiden — und warum der Produktwechsel selten zuerst kommt.
+- [Interne Wissensdatenbank aufbauen: Leitfaden mit KI-Suche](https://heabsy.com/de/blog/interne-wissensdatenbank-ki-leitfaden): Interne Wissensdatenbank aufbauen: Wiki, eingebaute KI oder KI-Suche über den Bestand im Vergleich — fünf Schritte, Datenschutz, Kosten, warum Wikis veralten.
+- [KI-Agenten erstellen: Wege, Schritte, Kosten und DSGVO](https://heabsy.com/de/blog/ki-agenten-erstellen): KI-Agenten erstellen mit n8n, Copilot Studio oder Code: welcher Weg sich eignet, sieben Schritte bis zum Betrieb, Kosten laut Anbieterseiten, DSGVO und AI Act.
+- [KI-Agenten einführen: Prozesse automatisieren — Leitfaden](https://heabsy.com/de/blog/ki-agenten-prozesse-automatisieren-leitfaden): Welche Prozesse sich eignen, wo die Übergabeschwelle liegt, was bei einem Fehler passiert und warum der Schattenbetrieb der Abschnitt ist, den man nicht abkürzen darf.
+- [KI-Anbieter vergleichen: Umsetzer oder Verkäufer?](https://heabsy.com/de/blog/ki-anbieter-vergleichen): Neun Fragen, die Angebote vergleichbar machen: Fundstelle, Datenstandort, wer die Anbindung trägt und was beim Abbruch bei Ihnen bleibt — samt Alarmzeichen.
+- [KI einführen mit dem Betriebsrat: Mitbestimmung in der Praxis](https://heabsy.com/de/blog/ki-einfuehrung-betriebsrat-mitbestimmung): Wann die Mitbestimmung greift, was der Betriebsrat verlangen kann und wie eine Betriebsvereinbarung zu KI aussieht, die im Alltag hält.
+- [KI-Einführung: Kosten, Posten und was Angebote weglassen](https://heabsy.com/de/blog/ki-einfuehrung-kosten): Woraus sich der Preis eines KI-Projekts zusammensetzt, welche Größenordnungen realistisch sind und woran man ein Angebot erkennt, das später teuer wird.
+- [KI im Unternehmen einführen: Leitfaden für den Mittelstand](https://heabsy.com/de/blog/ki-im-unternehmen-einfuehren-leitfaden): Vom Anwendungsfall bis zum Betrieb: welche Rollen besetzt sein müssen, woran Piloten scheitern und was in keiner Kalkulation steht.
+- [Warum KI-Pilotprojekte nicht in Produktion gehen](https://heabsy.com/de/blog/ki-pilot-produktion): Der Pilot funktioniert, der Rollout kommt nie. Die fünf Gründe, an denen KI-Projekte im Mittelstand tatsächlich scheitern — und woran man sie vorher erkennt.
+- [RAG DSGVO-konform: eigene Dokumente ohne Drittlandtransfer](https://heabsy.com/de/blog/rag-dsgvo-konform-eigene-dokumente): Was bei einem RAG-System datenschutzrechtlich tatsächlich geprüft wird — und warum die Frage nach dem Verarbeitungsort mehr entscheidet als die Wahl des Modells.
+- [RAG-Projekt einführen: von der Idee zum Produktivbetrieb](https://heabsy.com/de/blog/rag-projekt-einfuehren): Warum RAG-Piloten selten an der Technik scheitern: Zerlegung, Rechte, Versionen und die Frage, wer entscheiden darf, ob eine Antwort gut genug ist.
+- [Shadow AI: Ihre Mitarbeiter nutzen längst KI](https://heabsy.com/de/blog/shadow-ai-im-unternehmen): In den meisten Unternehmen läuft KI ohne Freigabe, mit Kundendaten in privaten Konten. Warum ein Verbot es schlimmer macht und was stattdessen hilft.
+
+## Plattform und Preise {#platform}
+
+- [Inferenz-Plattform](https://heabsy.com/platform): offene Modelle auf EU-Infrastruktur,
+  Zero Retention, Prefix-Caching, eine EU-Rechnung.
+- [AI hallucinations](https://heabsy.com/ai-hallucinations): measured rates per task,
+  the court record (about 1,490 decisions worldwide as of May 2026), and the architecture
+  that lowers the risk — retrieval with citations, verification pass, permitted empty answer.
+- [Modellkatalog](https://heabsy.com/models): Kontextfenster, Geschwindigkeit und Preis je Modell.
+- [Preise](https://heabsy.com/pricing)
+
+## Compliance {#compliance}
+
+- [Compliance-Hub](https://heabsy.com/compliance): EU AI Act, DORA, NIS 2, TISAX, GxP,
+  ISO 27001 / SOC 2 — Belegketten, in denen jede Aussage auf ihre Quelle zeigt.
+- [DORA](https://heabsy.com/de/compliance/dora): Informationsregister und Verträge mit
+  IKT-Drittdienstleistern — jede Anforderung aus Art. 30 einer Vertragsklausel zugeordnet.
+- [NIS 2](https://heabsy.com/de/compliance/nis2): was im Vorfall vereinbart war, von wem und wann —
+  Richtlinie, nationales Gesetz, Branchenregeln und Verträge übereinander.
+- [TISAX](https://heabsy.com/de/compliance/tisax): Kontrollfragen des VDA ISA gegen die
+  tatsächliche Werksdokumentation, einschließlich Prototypenschutz.
+- [GxP](https://heabsy.com/de/compliance/gxp): ein Wert zurück durch Chargenprotokolle,
+  Abweichungen und Validierung, jeder Schritt belegt (EU-GMP Anhang 11, ALCOA+).
+- [ISO 27001 / SOC 2](https://heabsy.com/de/compliance/iso-27001-soc2): unser tatsächlicher
+  Zertifizierungsstand (noch keiner) und Nachweisarbeit im eigenen Audit des Kunden.
+- [Nachprüfbare KI](https://heabsy.com/de/compliance/nachpruefbare-ki): Zugriffssteuerung und
+  Nachprüfbarkeit von Antworten — zwei verschiedene Probleme.
+- Dieselben Themen auf Russisch unter /ru/sootvetstvie/…, auf Slowakisch unter /sk/sulad/….
+
+## Rechtliches {#legal}
+
+- [Auftragsverarbeitung (AVV)](https://heabsy.com/de/auftragsverarbeitung) — englisches Original: /dpa
+- [Datenschutzerklärung](https://heabsy.com/de/datenschutz) — englisches Original: /privacy
+- [Nutzungsbedingungen](https://heabsy.com/de/nutzungsbedingungen) — englisches Original: /terms
+- [Cookies](https://heabsy.com/de/cookies) · [Impressum](https://heabsy.com/de/impressum) ·
+  [Informationen für KI-Systeme](https://heabsy.com/de/ki-informationen)
+- Bei Abweichungen zwischen Übersetzung und englischem Original gilt das englische Original.
+
+## Unternehmen {#company}
+
+FEYA, s.r.o. · Pekná cesta 19, 831 52 Bratislava-Rača, Slovakia
+IČO 47887541 · IČ DPH SK2024136169
+[Über uns](https://heabsy.com/about) · [Kontakt](https://heabsy.com/de/kontakt) ·
+[Contact (EN)](https://heabsy.com/contacts) · [Контакты](https://heabsy.com/ru/kontakty) ·
+[Kontakt (SK)](https://heabsy.com/sk/kontakt)
+Auf eine Nachricht mit einer konkreten Aufgabe folgt binnen eines Arbeitstags eine
+schriftliche Einschätzung statt einer Terminbitte; Antwort in der Sprache der Anfrage
+(de, en, ru, sk). Dokumententest: ein Dokument, drei Fragen, ein Arbeitstag.
