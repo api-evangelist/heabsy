@@ -1,0 +1,30 @@
+aid: heabsy
+name: Heabsy
+description: 'Heabsy is a company surfaced via the API Evangelist harvest backlog (source: new-submission)
+  and added to the network as a stub for full-pipeline profiling.'
+url: https://raw.githubusercontent.com/api-evangelist/heabsy/refs/heads/main/apis.yml
+x-type: company
+x-source: harvest:new-submission
+x-tier: stub
+x-tier-reason: harvest
+specificationVersion: '0.20'
+created: '2026-10-02'
+modified: '2026-10-02'
+tags:
+- Company
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://heabsy.com
+- type: Documentation
+  url: https://api.heabsy.com/docs
+x-submission-notes: OpenAI/Anthropic-compatible inference API for EU regulated industries (FEYA s.r.o.,
+  Bratislava).
+x-submission-probe: root 200; docs 200 'Heabsy Platform API Reference'; api.heabsy.com/openapi.json OpenAPI
+  3.1.0 622 paths title 'LiteLLM API'; /v1/models 401; llms.txt 200; 404 probe 404
+x-submitted-by: hello@heabsy.com (email/apisio, 2026-09-29)
